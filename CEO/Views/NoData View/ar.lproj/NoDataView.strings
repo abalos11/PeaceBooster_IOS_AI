@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Looks like there's no data available here"; ObjectID = "tVS-U1-E34"; */
+"tVS-U1-E34.text" = "يبدو أنه لا توجد بيانات متاحة هنا";
+
+/* Class = "UIButton"; normalTitle = "Reload"; ObjectID = "EBP-7X-5cj"; */
+"EBP-7X-5cj.normalTitle" = "اعادة التحميل";

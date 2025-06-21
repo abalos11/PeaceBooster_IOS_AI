@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnboardingCollectionCell" id="gTV-IL-0wX" customClass="OnboardingCollectionCell" customModule="CEO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="824"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="824"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page1" translatesAutoresizingMaskIntoConstraints="NO" id="dsH-1B-lxY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="824"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3xc-kn-Ulv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="824"/>
+                        <color key="backgroundColor" red="0.18823529410000001" green="0.1879999936" blue="0.1879999936" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Peace Booster" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZN-yS-K6p">
+                        <rect key="frame" x="20" y="126" width="335" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" name="BGButton"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Rdt-5g-KHu">
+                        <rect key="frame" x="20" y="351.66666666666669" width="335" height="120.66666666666669"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Peace Booster" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uya-de-hGt">
+                                <rect key="frame" x="42" y="0.0" width="251" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="BGButton"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gm-rJ-6nM">
+                                <rect key="frame" x="2" y="44.000000000000007" width="331.33333333333331" height="76.666666666666686"/>
+                                <string key="text">True peace does not need more concepts or effort. You’re here to remember the deep calm and quiet strength that have always been yours.</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dsH-1B-lxY" secondAttribute="trailing" id="5Um-2J-EZi"/>
+                <constraint firstAttribute="trailing" secondItem="Rdt-5g-KHu" secondAttribute="trailing" constant="20" id="5py-Qe-Qc6"/>
+                <constraint firstItem="oZN-yS-K6p" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="top" constant="8" id="7Uq-3p-tHp"/>
+                <constraint firstItem="Rdt-5g-KHu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="7ei-40-Umc"/>
+                <constraint firstItem="3xc-kn-Ulv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8Bv-LN-QIz"/>
+                <constraint firstItem="Rdt-5g-KHu" firstAttribute="centerX" secondItem="3xc-kn-Ulv" secondAttribute="centerX" id="9Ob-ax-9GL"/>
+                <constraint firstAttribute="bottom" secondItem="3xc-kn-Ulv" secondAttribute="bottom" id="Qx1-cJ-upx"/>
+                <constraint firstAttribute="bottom" secondItem="dsH-1B-lxY" secondAttribute="bottom" id="Rze-uP-kLm"/>
+                <constraint firstAttribute="trailing" secondItem="3xc-kn-Ulv" secondAttribute="trailing" id="TZe-vW-d78"/>
+                <constraint firstAttribute="trailing" secondItem="oZN-yS-K6p" secondAttribute="trailing" constant="20" id="f86-6h-thE"/>
+                <constraint firstItem="dsH-1B-lxY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gGC-Hb-Bif"/>
+                <constraint firstItem="Rdt-5g-KHu" firstAttribute="centerY" secondItem="3xc-kn-Ulv" secondAttribute="centerY" id="krr-x9-2g6"/>
+                <constraint firstItem="oZN-yS-K6p" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="x4T-Ud-Ru8"/>
+                <constraint firstItem="3xc-kn-Ulv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xSo-I0-G5a"/>
+                <constraint firstItem="dsH-1B-lxY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yc8-AP-5Lt"/>
+            </constraints>
+            <size key="customSize" width="375" height="824"/>
+            <connections>
+                <outlet property="cellImageView" destination="dsH-1B-lxY" id="6AC-vk-VAI"/>
+                <outlet property="subTitleLabel" destination="3Gm-rJ-6nM" id="PaN-0U-K9X"/>
+                <outlet property="titleLabel" destination="uya-de-hGt" id="ynf-aH-uLa"/>
+                <outlet property="topTitleLabel" destination="oZN-yS-K6p" id="M33-e7-soi"/>
+            </connections>
+            <point key="canvasLocation" x="264.8854961832061" y="191.5492957746479"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Page1" width="1290" height="2796"/>
+        <namedColor name="BGButton">
+            <color red="1" green="0.80784313725490198" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
