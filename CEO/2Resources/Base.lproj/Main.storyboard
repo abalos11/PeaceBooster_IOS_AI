@@ -2946,22 +2946,22 @@ If you want to find out why humans and animals exists without any difference, vi
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7c1-ge-aeF">
-                                <rect key="frame" x="0.0" y="0.0" width="402" height="322.66666666666669"/>
+                                <rect key="frame" x="0.0" y="0.0" width="402" height="343"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="beu-tl-8Iv">
-                                        <rect key="frame" x="20" y="132" width="362" height="178.66666666666663"/>
+                                        <rect key="frame" x="20" y="132" width="362" height="199"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To keep going and get the best experience, just make up a name for the person in the photo." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QU-3q-sVt">
-                                                <rect key="frame" x="0.0" y="0.0" width="362" height="40.666666666666664"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To keep going and get the best experience, just make up a name for the woman in the photo—and enter your own name below hers." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QU-3q-sVt">
+                                                <rect key="frame" x="0.0" y="0.0" width="362" height="61"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="To keep going and get the best experience, just make up a name for the person in the photo."/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="To keep going and get the best experience, just make up a name for the woman in the photo—and enter your own name below hers."/>
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Qb7-UD-VbL">
-                                                <rect key="frame" x="0.0" y="56.666666666666657" width="362" height="76"/>
+                                                <rect key="frame" x="0.0" y="77" width="362" height="76"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name the Person in the Photo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ki8-p8-hkc">
                                                         <rect key="frame" x="0.0" y="0.0" width="362" height="35"/>
@@ -2985,7 +2985,7 @@ If you want to find out why humans and animals exists without any difference, vi
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjb-Uc-jQZ">
-                                                <rect key="frame" x="0.0" y="148.66666666666669" width="362" height="30"/>
+                                                <rect key="frame" x="0.0" y="169" width="362" height="30"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                                 <state key="normal" title="OK">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
