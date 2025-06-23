@@ -10,9 +10,13 @@ import IQKeyboardToolbarManager
 import IQKeyboardManagerSwift
 import FirebaseCore
 import LanguageManager_iOS
+import FirebaseFirestoreInternal
 
-struct ApiKey: Codable {
+var appSettings: AppSettings?
+
+struct AppSettings: Codable {
     let apiKey: String
+    let appStoreID, minimumRequiredVersion: String
 }
 
 @main
@@ -36,9 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Language.current = .english
         Localizer.configure()
         
-        FirebaseAPI.getFirebaseData(url: FirebaseAPI.Constants.apiKey) { (key: ApiKey) in
-            apiKey = key.apiKey
-        } changed: { (_) in } noData: { }
+        VersionCheck.checkForForcedUpdate()
         
         return true
     }

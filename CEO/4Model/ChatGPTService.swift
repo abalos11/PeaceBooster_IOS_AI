@@ -9,8 +9,6 @@
 
 import Foundation
 
-var apiKey: String = ""
-
 class ChatGPTService {
     static let shared = ChatGPTService()
     private init() {}
@@ -57,7 +55,7 @@ class ChatGPTService {
     func sendQuestion(_ question: String, isRephrase: Bool = false, completion: @escaping (Result<String, Error>) -> Void) {
         var request = URLRequest(url: endpoint)
         request.httpMethod = "POST"
-        request.setValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
+        request.setValue("Bearer \(appSettings?.apiKey ?? "")", forHTTPHeaderField: "Authorization")
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
         let messages: [[String: String]] = [

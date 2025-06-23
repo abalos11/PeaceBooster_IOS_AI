@@ -39,18 +39,20 @@ class FirebaseAPI {
     static var listener: ListenerRegistration!
     struct Constants {
         static let apiKey = Firestore.firestore().collection("apiKey")
+        static let forceUpdate = Firestore.firestore().collection("forceUpdate")
+        static let settings = Firestore.firestore().collection("settings")
         static let articles = Firestore.firestore().collection("articles")
         static let videos = Firestore.firestore().collection("videos")
     }
     
-    static func getFirebaseData<T: Codable>(url: CollectionReference, added: ((T)->Void)?, changed: ((T)->Void)?, noData: @escaping ()->()) {
+    static func getFirebaseData<T: Codable>(url: CollectionReference, source: FirestoreSource = .default, added: ((T)->Void)?, changed: ((T)->Void)?, noData: @escaping ()->()) {
         listener = url.addSnapshotListener { querySnapshot, error in
             guard let snapshot = querySnapshot else {
                 print("Error fetching snapshots: \(error!)")
                 return
             }
             
-            url.getDocuments { (document, error) in
+            url.getDocuments(source: source) { (document, error) in
                 guard !(document?.isEmpty ?? false) else {
                     noData()
                     return

@@ -34,37 +34,145 @@
             endingLineNumber = "70"
             landmarkName = "onNo(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D4DBF31-E7CB-46C0-AA27-3FE601D1431A - f2f7e687b8942363"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CEO.IntroVC.onNo(Any) -&gt; ()"
+                  moduleName = "CEO.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dinahajjaj/Desktop/Main/Projects/Upwork/PeaceBooster_Oct_2024/CEO/3Controllers/point1/IntroVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70">
+               </Location>
+               <Location
+                  uuid = "7D4DBF31-E7CB-46C0-AA27-3FE601D1431A - 1a33a59a0795cb33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in CEO.IntroVC.onNo(Any) -&gt; ()"
+                  moduleName = "CEO.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dinahajjaj/Desktop/Main/Projects/Upwork/PeaceBooster_Oct_2024/CEO/3Controllers/point1/IntroVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70">
+               </Location>
+               <Location
+                  uuid = "7D4DBF31-E7CB-46C0-AA27-3FE601D1431A - 47c0a1f8ebbbd45b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UIAlertAction) -&gt; () in CEO.IntroVC.onNo(Any) -&gt; ()"
+                  moduleName = "CEO.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dinahajjaj/Desktop/Main/Projects/Upwork/PeaceBooster_Oct_2024/CEO/3Controllers/point1/IntroVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A271A4E0-C00A-4208-9BFF-1261C2CE69E6"
+            uuid = "B7F87E0F-080E-487A-920A-4EFFD810189C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CEO/1Delegate/AppDelegate.swift"
+            filePath = "CEO/4Model/API/FirebaseAPI.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getFirebaseData(url:source:added:changed:noData:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "226C6D6E-AF50-4A03-B976-1B924D276626"
+            uuid = "0EABBFE9-5E15-4F1F-8C6E-1E9D74F370E7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CEO/1Delegate/AppDelegate.swift"
+            filePath = "CEO/3Controllers/ForceUpdate/VersionCheck.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "checkForForcedUpdate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20B6F99D-93F4-4C13-BFF6-52C7933F23CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CEO/3Controllers/ForceUpdate/VersionCheck.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "isVersion(_:lessThan:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31860C56-3830-44ED-93AA-FC2D70FE8405"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CEO/3Controllers/ForceUpdate/VersionCheck.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "isVersion(_:lessThan:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B560199-73E6-49AF-9071-861FE860C3E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CEO/3Controllers/ForceUpdate/VersionCheck.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "isVersion(_:lessThan:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C8F399D-E6C7-4D75-9C9A-310F39DCFAD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CEO/3Controllers/ForceUpdate/VersionCheck.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "checkForForcedUpdate()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
