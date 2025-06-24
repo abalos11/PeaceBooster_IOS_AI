@@ -30,54 +30,10 @@
             filePath = "CEO/3Controllers/point1/IntroVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "onNo(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7D4DBF31-E7CB-46C0-AA27-3FE601D1431A - f2f7e687b8942363"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CEO.IntroVC.onNo(Any) -&gt; ()"
-                  moduleName = "CEO.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dinahajjaj/Desktop/Main/Projects/Upwork/PeaceBooster_Oct_2024/CEO/3Controllers/point1/IntroVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70">
-               </Location>
-               <Location
-                  uuid = "7D4DBF31-E7CB-46C0-AA27-3FE601D1431A - 1a33a59a0795cb33"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in CEO.IntroVC.onNo(Any) -&gt; ()"
-                  moduleName = "CEO.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dinahajjaj/Desktop/Main/Projects/Upwork/PeaceBooster_Oct_2024/CEO/3Controllers/point1/IntroVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70">
-               </Location>
-               <Location
-                  uuid = "7D4DBF31-E7CB-46C0-AA27-3FE601D1431A - 47c0a1f8ebbbd45b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (__C.UIAlertAction) -&gt; () in CEO.IntroVC.onNo(Any) -&gt; ()"
-                  moduleName = "CEO.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dinahajjaj/Desktop/Main/Projects/Upwork/PeaceBooster_Oct_2024/CEO/3Controllers/point1/IntroVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

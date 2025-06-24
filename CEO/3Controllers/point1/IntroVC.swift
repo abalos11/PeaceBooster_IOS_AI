@@ -45,7 +45,10 @@ class IntroVC: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        addNameOfPicture()
+        
+        if g_personName.isEmpty, g_userName.isEmpty {
+            addNameOfPicture()
+        }
         
         print(Locale.preferredLanguages.first ?? "no language")
     }
