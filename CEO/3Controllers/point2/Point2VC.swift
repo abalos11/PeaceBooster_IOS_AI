@@ -14,12 +14,12 @@ class Point2VC: BaseViewController {
     var indexOfQuestions: Int = 0
     let questions: [String] = [
         /**
-         E: Did (--) generate her/his being?
+         E: Did (--) generate her being?
          A:  هل قام/قامت (--) بالتوليد وجوده/وجودها؟
          H: היוכלו (--) לייצר את עצמם?
          C: (--)是否自行生成了她/他的存在？
          */
-        getQuestion("Did (--) generate her/his being?".localized),
+        getQuestion("Did (--) generate her being?".localized),
         
         /**
          E: Did (--) self-produce without any parents?

@@ -20,11 +20,11 @@ extension UIImage {
             }
         }
     
-        tiles[5].clicked = true
-        tiles[7].clicked = true
+        tiles[10].clicked = true
         tiles[20].clicked = true
-        tiles[28].clicked = true
-        tiles[42].clicked = true
+        tiles[27].clicked = true
+        tiles[34].clicked = true
+        tiles[37].clicked = true
         return tiles
     }
 }

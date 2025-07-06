@@ -948,7 +948,7 @@
                                     </imageView>
                                     <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ipQ-lV-Nj4" userLabel="ChoppedCollView">
                                         <rect key="frame" x="0.0" y="0.0" width="402" height="402"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" name="bg"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="OTW-c4-uQq">
                                             <size key="itemSize" width="128" height="128"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -2188,23 +2188,32 @@ If you want to find out why humans and animals exists without any difference, vi
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="geE-NQ-2E1">
+                                        <rect key="frame" x="0.0" y="3.3333333333333428" width="342" height="335.66666666666663"/>
+                                        <color key="tintColor" red="0.25490196078431371" green="0.7803921568627451" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="ultraLight"/>
+                                    </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hgs-cE-7fs" userLabel="indicator">
-                                        <rect key="frame" x="0.0" y="0.0" width="342" height="3"/>
-                                        <color key="backgroundColor" red="0.25386767300000002" green="0.78039215689999997" blue="0.30246305540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="342" height="5"/>
+                                        <color key="backgroundColor" red="0.25490196078431371" green="0.7803921568627451" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3" id="QSB-nf-Vu9"/>
+                                            <constraint firstAttribute="height" constant="5" id="QSB-nf-Vu9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" name="bg"/>
                                 <constraints>
                                     <constraint firstItem="FQr-3f-6Ou" firstAttribute="top" secondItem="W2M-J2-ggW" secondAttribute="top" id="1KN-nL-ENb"/>
                                     <constraint firstItem="Hgs-cE-7fs" firstAttribute="top" secondItem="W2M-J2-ggW" secondAttribute="top" id="3KT-aX-slQ"/>
+                                    <constraint firstItem="geE-NQ-2E1" firstAttribute="top" secondItem="W2M-J2-ggW" secondAttribute="top" id="8ee-dB-XJI"/>
                                     <constraint firstItem="Hgs-cE-7fs" firstAttribute="leading" secondItem="W2M-J2-ggW" secondAttribute="leading" id="8pM-wA-87G"/>
                                     <constraint firstAttribute="bottom" secondItem="FQr-3f-6Ou" secondAttribute="bottom" id="9I8-C0-Wpv"/>
                                     <constraint firstAttribute="width" secondItem="W2M-J2-ggW" secondAttribute="height" multiplier="1:1" id="KNZ-eC-zgi"/>
                                     <constraint firstAttribute="trailing" secondItem="Hgs-cE-7fs" secondAttribute="trailing" id="Plc-pU-PNF"/>
+                                    <constraint firstItem="geE-NQ-2E1" firstAttribute="leading" secondItem="W2M-J2-ggW" secondAttribute="leading" id="Tin-lO-djh"/>
+                                    <constraint firstAttribute="bottom" secondItem="geE-NQ-2E1" secondAttribute="bottom" id="VMd-4x-iOs"/>
                                     <constraint firstAttribute="trailing" secondItem="FQr-3f-6Ou" secondAttribute="trailing" id="cyD-ye-zzN"/>
+                                    <constraint firstAttribute="trailing" secondItem="geE-NQ-2E1" secondAttribute="trailing" id="o7P-Jo-7it"/>
                                     <constraint firstItem="FQr-3f-6Ou" firstAttribute="leading" secondItem="W2M-J2-ggW" secondAttribute="leading" id="uRW-R7-wTH"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -2245,7 +2254,7 @@ If you want to find out why humans and animals exists without any difference, vi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWa-eO-xjx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1081" y="807"/>
+            <point key="canvasLocation" x="1080.5970149253731" y="806.63615560640721"/>
         </scene>
         <!--ImgShowVC-->
         <scene sceneID="Cb3-hQ-Fwc">
@@ -3299,6 +3308,7 @@ If you want to find out why humans and animals exists without any difference, vi
         <image name="number2" width="120" height="120"/>
         <image name="number3" width="120" height="120"/>
         <image name="red_blur" width="50" height="50"/>
+        <image name="viewfinder" catalog="system" width="128" height="115"/>
         <image name="xmark.circle.fill" catalog="system" width="128" height="123"/>
         <namedColor name="bg">
             <color red="0.18799999356269836" green="0.18799999356269836" blue="0.18799999356269836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
