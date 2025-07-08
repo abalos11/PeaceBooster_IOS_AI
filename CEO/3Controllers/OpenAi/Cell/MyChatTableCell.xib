@@ -18,8 +18,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Rd-KT-txF">
-                        <rect key="frame" x="70" y="8" width="234" height="56"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Rd-KT-txF">
+                        <rect key="frame" x="264.33333333333331" y="8" width="39.666666666666686" height="56"/>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -29,7 +29,7 @@
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="6Rd-KT-txF" secondAttribute="bottom" constant="8" id="Cwg-us-9ak"/>
                     <constraint firstItem="6Rd-KT-txF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="S2L-MO-Qtl"/>
-                    <constraint firstItem="6Rd-KT-txF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="70" id="ZtU-hh-xv1"/>
+                    <constraint firstItem="6Rd-KT-txF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="70" id="ZtU-hh-xv1"/>
                     <constraint firstAttribute="trailing" secondItem="6Rd-KT-txF" secondAttribute="trailing" constant="16" id="ozW-zK-pCW"/>
                 </constraints>
             </tableViewCellContentView>
